@@ -1,0 +1,9 @@
+falcon
+sqlalchemy
+gunicorn
+gevent
+psycopg2-binary
+click
+dictalchemy
+marshmallow
+requests

@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:11
+    environment:
+      POSTGRES_DB: ${PFT_DB_NAME}
+      POSTGRES_USER: ${PFT_DB_USER}
+      POSTGRES_PASSWORD: ${PFT_DB_PASS}
+    ports:
+    - ${PFT_DB_PORT}:5432
