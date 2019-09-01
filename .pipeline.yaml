@@ -3,5 +3,7 @@ steps:
   dockerRun:
     image: python:3.7
     script: |
+      pwd
+      env
       pip install --upgrade pip
       pip install -r requirements.txt
